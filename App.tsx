@@ -6,7 +6,7 @@ const App: React.FC = () => {
   return (
     <SafeAreaView style={styles.container}>
       <WebView
-        source={{ uri: 'https://app.retto.social' }}
+        source={{ uri: 'https://retto.social' }}
         style={styles.webview}
       />
     </SafeAreaView>
